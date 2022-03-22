@@ -1,7 +1,7 @@
 "set line numbers in nvim
 :set number
-"set relative number
-set relativenumber
+"set relative number in nvim
+" set relativenumber
 
 " always copy to the system clipboard
 set clipboard+=unnamedplus
@@ -21,6 +21,9 @@ set tabstop     =2
 set softtabstop =2
 set shiftwidth  =2
 set expandtab
+
+" set mouse interaction in all modes
+:set mouse=a
 
 " set theme for statusline for nvim
 let g:airline_theme='bubblegum'
